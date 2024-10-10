@@ -1,0 +1,83 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2a2a2a; /* Background untuk kontras */
+    color: #ffffff; /* Warna teks */
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #333; /* Background kalkulator */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.logo {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 0px; /* Jarak bawah logo */
+}
+
+.input-container {
+    margin-bottom: 20px; /* Space input - buttons */
+}
+
+.input-group {
+    margin: 10px 0; /* Space input fields */
+}
+
+.input-group label {
+    color: rgb(250, 0, 0); /* Warna label */
+}
+
+.lcd {
+    background-color: #ffffff;
+    border: 2px solid #f84600; 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="number"], select {
+    width: 100%; /* Full width inputs */
+    padding: 5px;
+    border: none; /* No border inputs */
+    border-radius: 3px;
+    background-color: #fff; /* Background inputs */
+}
+
+button {
+    background-color: #4CAF50; /* Background buttons */
+    color: white; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer; /* Pointer cursor buttons */
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.btn-danger {
+    background-color: red; 
+}
+
+.btn-danger:hover {
+    background-color: darkred; 
+}
+
+.retro-screen {
+    background-color: #000; /* Background result details */
+    border: 2px solid #0f0; 
+    padding: 10px;
+    border-radius: 5px; 
+    margin-top: 10px; /* Space above result box */
+    font-size: 1.1em; 
+}
